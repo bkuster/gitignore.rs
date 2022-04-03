@@ -40,3 +40,7 @@ mod errors {
 mod ignore_file;
 mod repo;
 mod ruleset;
+
+pub use ignore_file::IgnoreFile;
+pub use repo::Repo;
+pub use ruleset::RuleSet;
